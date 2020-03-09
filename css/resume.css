@@ -59,6 +59,20 @@ p.lead {
   height: 100vh;
 }
 
+#down-to-main {
+  position: relative;
+  top:0;
+  color: #495057;
+  animation-name: bob;
+  animation-duration: .6s;
+  animation-iteration-count: infinite;
+}
+  @keyframes bob {
+    0% {top: -8px}
+    50% {top: 8px}
+    100% {top: -8px}
+  }
+
 .social-icons a {
   display: inline-block;
   height: 3.5rem;
